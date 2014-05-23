@@ -1,0 +1,1 @@
+instrument(Musician, guitar).
