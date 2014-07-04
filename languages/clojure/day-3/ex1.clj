@@ -13,4 +13,4 @@
   (dosync (alter accounts dec_quantity id quantity)))
 
 (defn create_account [accounts]
-  (dosync (alter accounts (comp vec concat) [0])))
+  (dosync (alter accounts conj 0)))
